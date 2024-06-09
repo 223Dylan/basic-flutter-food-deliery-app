@@ -8,7 +8,7 @@ Welcome to the Food Delivery App! This Flutter application allows users to brows
 - [Installation](#installation)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Folder Structure](#folder-structure)
+- [Screenshots](#screenshots)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [License](#license)
@@ -30,8 +30,8 @@ To get started with the Food Delivery App, you need to have Flutter installed on
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/food_delivery_app.git
-   cd food_delivery_app
+   git clone https://github.com/223Dylan/basic-flutter-food-deliery-app.git
+   cd basic-flutter-food-deliery-app
 
 2. **Install dependencies:**
 
@@ -83,27 +83,39 @@ Navigate to the project directory and use the following command to run the app:
 - Contains customer details and a summary of all transactions.
 - Active transactions are listed under the transactions section.
 
-## Folder Structure
+## Screenshots
 
-The project folder structure is organized as follows:
-  
+Here are some screenshots of the Food Delivery App:
 
-   
+### Login Screen
+![Login Screen](IMG_20240609_161839.jpg)
 
-- `models/`: Contains the data models for the app.
-- `screens/`: Contains the UI screens of the app.
-- `widgets/`: Contains reusable UI components.
-- `main.dart`: The entry point of the application.
+### Signup Screen
+![Signup Screen](IMG_20240609_161857.jpg)
+
+### Home Screen
+![Home Screen](Screenshot_2024-06-09-16-14-39-70_077fac60ab1877db40c6094eee4837d2.jpg)
+
+![Home Screen](IMG_20240609_161816.jpg)
+
+### Profile Screen
+![Profile Screen](IMG_20240609_161736.jpg)
+
+### Cart Screen
+![Cart Screen](IMG_20240609_161758.jpg)
 
 ## Dependencies
 
 The app uses the following dependencies:
 
 - `flutter`: The core Flutter framework.
-- `provider`: State management solution.
-- `http`: For making HTTP requests.
-- `firebase_auth`: For user authentication.
--`cloud_firestore`: For accessing Firestore database.
+- `get`: ^4.6.6 - For state management and routing.
+- `curved_navigation_bar`: ^1.0.3 - For the curved navigation bar.
+- `shared_preferences`: ^2.2.2 - For storing simple data on the device.
+- `bloc_pattern`: For managing state using the BLoC pattern.
+- `rxdart`: For working with reactive programming using Dart Streams.
+- `cupertino_icons`: ^1.0.2 - For iOS style icons.
+- `http`: ^1.2.0 - For making HTTP requests.
 
 You can find all the dependencies in the pubspec.yaml file.
 
