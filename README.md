@@ -125,4 +125,4 @@ Contributions are welcome! If you find any bugs or want to add new features, fee
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more information.
+This project is licensed under the [MIT License](LICENSE).
